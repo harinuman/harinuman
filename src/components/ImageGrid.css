@@ -1,0 +1,28 @@
+.img-grid{
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.img-wrap{
+    /* overflow: hidden; */
+    height: 100%;
+    padding: 10% 0;
+    position: relative;
+    opacity: 0.8;
+
+}
+
+/* .img-wrap img{
+    
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+} */
+

@@ -1,0 +1,20 @@
+img{
+    height:auto;
+    z-index: 5;
+    max-width:80%;
+    width:60%;
+    position: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.img-container{
+    display: cover;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+}

@@ -1,0 +1,10 @@
+
+.bar{
+    background-color: black;
+    inset: 0;
+    top: 8px;
+    left: 16px;
+    height: auto;
+    width: 60%;
+
+}
