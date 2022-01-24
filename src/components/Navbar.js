@@ -3,7 +3,7 @@ import {Link, Route, Routes} from 'react-router-dom';
 import Turnon from './turnon'
 import './Navbar.css';
 
-function Navbar(){
+function Navigationbar(){
 
     
     return(
@@ -25,7 +25,7 @@ function Navbar(){
 
 }
 
-export default Navbar
+export default Navigationbar
 
 // class Navbar extends Component{
 //     render(){

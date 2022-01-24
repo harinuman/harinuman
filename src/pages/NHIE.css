@@ -1,0 +1,25 @@
+.Hello{
+    width: 150px;
+    height: 125px;
+    margin-left: 50px;
+    margin-top: 0px;
+    border: 0;
+    padding:0;
+}
+
+.deck{
+    width: 120px;
+    height: 190px;
+    position: fixed;
+    left: 1100px;
+    top: 10px;
+    cursor:pointer;
+}
+
+.deck:hover{
+    border: 1px solid #C24CF6;
+}
+
+.pickedCard{
+    width: 350px;
+}

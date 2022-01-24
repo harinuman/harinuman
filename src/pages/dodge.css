@@ -16,3 +16,36 @@
     border: 0;
     padding:0;
 }
+
+.card-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    grid-row-gap: 75px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px; */
+    
+}
+
+.card1{
+    background-color: transparent;
+    height: 250px;
+    width: 375px;
+    cursor: pointer;
+    margin-top: 0px;
+    /* padding-bottom: 250px; */
+}
+
+.fixedbutton1{
+    position: fixed;
+    bottom: 250px;
+    right: 30px;
+    cursor: pointer;
+    height:190px; 
+    width:120px;
+}

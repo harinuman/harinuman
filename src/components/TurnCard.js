@@ -1,14 +1,30 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import {Link, Route, Routes} from 'react-router-dom';
+import './TurnCard.css'
 
-function TurnCard(card){
+function TurnCard({card, handleChoice, flipped, backCard, disabled} ){
 
-    const replaceImage = card.pick;
+    
+
+    const handleClick =() => {
+
+        if(!disabled){
+            handleChoice(card)
+        }
+        
+    }
 
     
     return(
-        <div>
-             {replaceImage ? <img src= {card.front} /> : <img src={card.back} />}
+        <div className='card'>
+             <div onClick = {handleClick}> 
+                 {/* <img className = "front" src = {card.src} alt="card front" />
+                 <img className = "back" src = "/DodgeCards/cardBack.png" onClick ={handleClick} alt = "card back" /> */}
+                 {flipped ? <img className='pick-card' title='Pick a new card from the deck' src= {card.src} /> : <img src= {backCard} />}
+                
+                 
+                 
+             </div>
         
         </div>
 

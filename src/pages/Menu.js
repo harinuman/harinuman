@@ -5,19 +5,26 @@ import './Menu.css';
 // import logo from '../images/harinuman.png';
 import {Link, BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Home'
-import Navbar from '../components/Navbar'
+import Navigationbar from '../components/Navbar'
 import ImageGrid from '../components/ImageGrid'
 import Turnon from '../components/turnon';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import { Nav, Navbar } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 
 
 function Menu(){
     return(
         <>
-            
-            
-            <div classname = "mainbg">
-                <Navbar />
+            <Helmet>
+            <title>Menu | Harinuman</title>
+            </Helmet>
+            <div classname = "mainbg" style={{position:'fixed'}}>
+                <Navbar bg="clear" variant="dark" fixed='top'>
+                    <Navbar.Brand href='/'>
+                        <img className='sized' src='images/harinuman-small.png'/>
+                    </Navbar.Brand>
+                </Navbar>
                 {/* <ImageGrid /> */}
 
                 <div className="img-grid">

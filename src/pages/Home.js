@@ -8,31 +8,32 @@ import Turnon from '../components/turnon'
 // import mainbackground from "../images/wall2.jpg";
 import {Link, Route, Routes} from 'react-router-dom';
 import Menu from './Menu'
+import { Helmet } from 'react-helmet';
 
 
 function Home(){
 
 
-    let pic1 = "images/harinuman.png";
-    let pic2 = "images/offharinuman.png";
+    let pic1 = "images/harinuman1.png";
+    let pic2 = "images/offharinuman1.png";
 
    
     return(
         <>
-            <div classname = "mainbg" >
+            <Helmet>
+            <title>Harinuman</title>
+            </Helmet>
+            <div classname = "mainbg" style={{position:'fixed'}}>
                 
-                <div classname = "home-container">
-                
+                {/* <div classname = "home-container"> */}
+                    
                     <Link to="/Menu">
                         
                         <Turnon on = {pic1} off = {pic2} />
-                        
 
                     </Link>
-                    
-                    <p>-CLICK THE BOTTLE TO TAKE A SHOT-</p>
-
-                </div>
+                {/* </div> */}
+                <p><br></br>-CLICK THE BOTTLE TO TAKE A SHOT-</p>
             </div>
         </>
     );
