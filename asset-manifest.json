@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/harinuman/static/css/main.ae3c960c.css",
+    "main.js": "/harinuman/static/js/main.0ddb8fa1.js",
+    "static/js/787.a13e9288.chunk.js": "/harinuman/static/js/787.a13e9288.chunk.js",
+    "static/media/blackboardbg.jpg": "/harinuman/static/media/blackboardbg.8207334cc5e63ff9fa4b.jpg",
+    "static/media/wall2.jpg": "/harinuman/static/media/wall2.c5199e2cc0a5547de151.jpg",
+    "index.html": "/harinuman/index.html",
+    "main.ae3c960c.css.map": "/harinuman/static/css/main.ae3c960c.css.map",
+    "main.0ddb8fa1.js.map": "/harinuman/static/js/main.0ddb8fa1.js.map",
+    "787.a13e9288.chunk.js.map": "/harinuman/static/js/787.a13e9288.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae3c960c.css",
+    "static/js/main.0ddb8fa1.js"
+  ]
+}
